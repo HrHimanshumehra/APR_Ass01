@@ -32,4 +32,3 @@ We explore data preprocessing, resampling techniques, and different classifiers 
 
 ---
 
-## 📂 Project Structure
