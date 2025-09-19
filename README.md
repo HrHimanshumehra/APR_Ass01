@@ -12,10 +12,6 @@ We explore data preprocessing, resampling techniques, and different classifiers 
 - Handle **imbalanced data** using **NearMiss undersampling** and **SMOTE oversampling**.  
 - Train and evaluate multiple classifiers:
   - Logistic Regression
-  - K-Nearest Neighbors
-  - Support Vector Classifier
-  - Decision Tree
-  - Neural Network  
 - Compare results using accuracy, precision, recall, F1-score, and ROC-AUC.  
 - Visualize learning curves, confusion matrices, and ROC curves.  
 
@@ -30,20 +26,8 @@ We explore data preprocessing, resampling techniques, and different classifiers 
 
 ---
 
-## 🛠️ Methods Used
-- **Data Scaling**: StandardScaler / RobustScaler applied on `Time` and `Amount`.  
-- **Handling Imbalance**:  
-  - Random Undersampling  
-  - SMOTE (Synthetic Minority Oversampling Technique)  
-- **Correlation Analysis**: Feature correlations with fraud cases.  
-- **Modeling**: Logistic Regression (with GridSearch), SVM, KNN, Decision Tree, Neural Networks.  
-
----
-
 ## 📈 Results
-- Logistic Regression with tuned parameters gave **~94–96% accuracy** and ROC-AUC ≈ **0.97**.  
-- Undersampling reduced overfitting but led to some information loss.  
-- SMOTE improved recall for fraud cases.  
+- Logistic Regression with tuned parameters gave **~94–96% accuracy** and ROC-AUC ≈ **0.97**.   
 - ROC Curve and Confusion Matrix confirm that **recall is crucial** (better to detect frauds even if some false positives occur).  
 
 ---
